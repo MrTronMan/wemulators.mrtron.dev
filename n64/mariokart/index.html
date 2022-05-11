@@ -1,23 +1,9 @@
-<div style='width:100%;height:100%;max-width:100%'>
-    <div id='game'></div>
-</div>
-
-<script type='text/javascript'>
-
-    EJS_player = '#game';
-    EJS_core = 'n64';
-
-    // URL to Game rom
-     
-    EJS_gameUrl = 'https://wemulators-mrtron-dev.vercel.app/n64/mariokart/mk64.z64.v64';
-    
-    /*
-     *  Path to the WASM / JS files
-     *  HAS TO BE in the same directory.
-     */
-    
-    EJS_pathtodata = 'data/';
-    
+<div style="width:640px;height:480px;max-width:100%">
+    <div id="game"></div>
+  </div>
+<script type="text/javascript">
+EJS_player = '#game';
+EJS_gameUrl = 'https://wemulators-mrtron-dev.vercel.app/n64/mariokart/mk64.z64.v64'; // Url to Game rom
+EJS_core = 'n64';
 </script>
-
-<script src='data/loader.js'></script>
+<script src="https://www.emulatorjs.com/loader.js"></script>
